@@ -1,0 +1,10 @@
+
+<form bindsubmit="addAlert">
+
+<input placeholder="请输入名字" name="name" class="input"></input>
+<input placeholder="请输入与本人的关系" name="relation" class="input"></input>
+<picker mode="date" bindchange="selectDate"  value="{{date}}">
+<view class="pick-date">生日：{{date}}</view>
+</picker>
+<button class="submit" type="primary" form-type="submit">确认添加</button>
+</form>

@@ -24,6 +24,8 @@ page {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding: 20rpx;
+  box-sizing: border-box;
 }
 
 .userinfo, .uploader, .tunnel {

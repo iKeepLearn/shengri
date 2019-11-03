@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/birthday/add"
   ],
   "window": {
     "backgroundColor": "#FFF",
