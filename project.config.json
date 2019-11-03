@@ -30,6 +30,10 @@
 		"game": {
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 1,
 			"list": [
@@ -43,6 +47,14 @@
 					"id": -1,
 					"name": "新增提醒",
 					"pathName": "pages/brithday/add",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "订阅消息",
+					"pathName": "pages/me/subscribeMessage",
+					"query": "date=2019-10-28&name=李浩&relation=好友",
 					"scene": null
 				}
 			]

@@ -156,3 +156,12 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+
+
+.margin-top{
+  margin-top:40rpx;
+}
+
+.text-gray{
+  color:#888;
+}

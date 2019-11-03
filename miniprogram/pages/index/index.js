@@ -37,6 +37,17 @@ Page({
     }
   },
 
+  alert(){
+    wx.cloud.callFunction({
+      name:'sendSubscribeMessage'
+    }).then(res =>{
+      console.log(res)
+    }).catch(err=>{
+      console.error(err)
+    })
+
+  },
+
   addAlert() {
     wx.navigateTo({
       url: '/pages/birthday/add',

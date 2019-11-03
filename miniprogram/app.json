@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/me/me",
+    "pages/me/subscribeMessage",
     "pages/birthday/add"
   ],
   "window": {

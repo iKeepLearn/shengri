@@ -45,8 +45,8 @@ Page({
             title: '添加成功',
           })
           setTimeout(()=>{
-            wx.navigateBack({
-              
+            wx.navigateTo({
+              url: `/pages/me/subscribeMessage?date=${birthday}&name=${name}&relation=${relation}`,
             })
           },1600)
         }
