@@ -56,6 +56,19 @@
 					"pathName": "pages/me/subscribeMessage",
 					"query": "date=2019-10-28&name=李浩&relation=好友",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "云调用获取加密数据",
+					"pathName": "pages/cloudbase/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "内容安全检查",
+					"pathName": "pages/cloudbase/contentsec",
+					"scene": null
 				}
 			]
 		}

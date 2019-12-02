@@ -1,0 +1,17 @@
+<view class="container">
+<button open-type="getUserInfo" bindgetuserinfo="login" type="primary">获取用户信息</button>
+
+<view class="user-info" wx:if="{{userInfo}}">
+<image class="user-info-avatar" src="{{userInfo.avatarUrl}}"></image>
+<view >{{userInfo.nickName}}</view>
+</view>
+
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhone" type="primary">获取手机号</button>
+<view >{{phone}}</view>
+
+
+<button bindtap="getRunData" type="primary">获取微信运动数据</button>
+<view class="run-data" wx:for="{{stepInfoList}}" wx:key="index">
+<view >{{item.timestamp}}运动了{{item.step}}</view>
+</view>
+</view>

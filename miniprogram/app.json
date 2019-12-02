@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/me/me",
     "pages/me/subscribeMessage",
-    "pages/birthday/add"
+    "pages/birthday/add",
+    "pages/cloudbase/index",
+    "pages/cloudbase/contentsec"
   ],
   "window": {
     "backgroundColor": "#FFF",
@@ -29,5 +31,6 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "style":"v2"
 }

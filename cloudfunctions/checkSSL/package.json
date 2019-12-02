@@ -1,0 +1,15 @@
+{
+  "name": "https",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "get-ssl-certificate": "^2.3.3",
+    "wx-server-sdk": "latest"
+  }
+}
