@@ -68,6 +68,13 @@
 					"id": -1,
 					"name": "内容安全检查",
 					"pathName": "pages/cloudbase/contentsec",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "openai",
+					"pathName": "pages/openai/openai",
 					"scene": null
 				}
 			]

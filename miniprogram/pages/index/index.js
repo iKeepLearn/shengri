@@ -104,4 +104,18 @@ Page({
     })
   },
 
+  onShow(){
+    db.collection('msg').watch({
+      onChange:function(snapshot){
+        console.log(snapshot)
+       db.collection('msg').count().then(res=>{
+          console.log(res.total)
+        })
+      },
+      onError:function(error){
+        console.error(error)
+      }
+    })
+  }
+
 })
