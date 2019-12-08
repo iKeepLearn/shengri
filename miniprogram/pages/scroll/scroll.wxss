@@ -1,0 +1,34 @@
+.msg-swiper {
+  position: relative;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.msg-swiper-scroll {
+  position: relative; 
+  height: 100%;
+  width: 100%;
+  line-height: 100rpx;
+}
+
+.msg-swiper-scroll swiper-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.scroll-msg-cover {
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+  height: 100%;
+  width: 100%; 
+}
+
+.scroll-avatar {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 200rpx;
+}

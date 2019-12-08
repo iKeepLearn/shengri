@@ -6,7 +6,8 @@
     "pages/birthday/add",
     "pages/cloudbase/index",
     "pages/cloudbase/contentsec",
-    "pages/openai/openai"
+    "pages/openai/openai",
+    "pages/scroll/scroll"
   ],
   "window": {
     "backgroundColor": "#FFF",
