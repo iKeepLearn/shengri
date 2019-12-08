@@ -2,7 +2,7 @@
   <swiper class="msg-swiper-scroll" circular="true" autoplay="true" interval="1000" duration="500" vertical="true">
     <swiper-item wx:for="{{scrollMsg}}" wx:key="index">
       <image class="scroll-avatar" src="{{item.avatar}}"></image>
-      <view class=" msg-text text-gray">{{item.nickName}} 下单了 {{item.name}} {{item.createTime}}</view>
+      <view class=" msg-text">{{item.nickName}} 下单了 {{item.name}} {{item.createTime}}</view>
     </swiper-item>
   </swiper>
   <view class="scroll-msg-cover">

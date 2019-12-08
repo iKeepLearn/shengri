@@ -19,6 +19,16 @@
   align-items: center;
 }
 
+.scroll-avatar {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 200rpx;
+}
+
+.msg-text{
+  color: #888;
+}
+
 .scroll-msg-cover {
   position: absolute;
   top: 0;
@@ -27,8 +37,3 @@
   width: 100%; 
 }
 
-.scroll-avatar {
-  width: 30rpx;
-  height: 30rpx;
-  border-radius: 200rpx;
-}
