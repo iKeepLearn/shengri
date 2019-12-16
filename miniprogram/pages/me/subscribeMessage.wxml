@@ -1,6 +1,7 @@
 <view class="container">
-<icon type="success" size="160rpx"></icon>
-<text class="alert-text margin-top">添加成功，需要订阅提醒吗？</text>
-<button type="primary" class="sub-btn margin-top" bindtap="subscribeMessage">订阅提醒</button>
-<text class="text-gray margin-top" bindtap="back">不用了，谢谢</text>
+  <icon type="success" size="160rpx"></icon>
+  <text class="alert-text margin-top">添加成功，需要订阅提醒吗？</text>
+  <button type="primary" class="sub-btn margin-top" bindtap="subscribeMessage">订阅提醒</button>
+  <button type="primary" class="sub-btn margin-top" bindtap="sendSubscribeMessage">下发订阅消息</button>
+  <text class="text-gray margin-top" bindtap="back">不用了，谢谢</text>
 </view>

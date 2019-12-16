@@ -1,0 +1,7 @@
+button:not([size='mini']) {
+  width: 80%;
+}
+
+.image{
+  margin:40rpx auto;
+}

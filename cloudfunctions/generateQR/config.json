@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "openapi": [
+      "wxacode.createQRCode",
+      "wxacode.get",
+      "wxacode.getUnlimited"
+    ]
+  }
+}

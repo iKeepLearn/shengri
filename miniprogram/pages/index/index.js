@@ -7,7 +7,8 @@ Page({
 
   },
 
-  onLoad: function() {
+  onLoad: function(e) {
+    console.log(e)
 
     // 获取用户信息
     wx.getSetting({
@@ -104,7 +105,8 @@ Page({
     })
   },
 
-  onShow(){
+  onShow(e){
+    console.log("onshow",e)
     db.collection('msg').watch({
       onChange:function(snapshot){
         console.log(snapshot)

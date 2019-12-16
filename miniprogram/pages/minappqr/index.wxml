@@ -1,0 +1,5 @@
+<button type="primary" bindtap="createQR">生成小程序二维码</button>
+<button class="margin-top" type="primary" bindtap="getMiniapp">生成小程序小程序码</button>
+<button class="margin-top" type="primary" bindtap="getUnlimited">生成无限量小程序码</button>
+
+<image class="image" src="{{fileID}}" mode="widthFix"></image>

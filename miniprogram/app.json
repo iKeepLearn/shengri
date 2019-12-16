@@ -6,8 +6,10 @@
     "pages/birthday/add",
     "pages/cloudbase/index",
     "pages/cloudbase/contentsec",
+    "pages/cloudbase/count",
     "pages/openai/openai",
-    "pages/scroll/scroll"
+    "pages/scroll/scroll",
+    "pages/minappqr/index"
   ],
   "window": {
     "backgroundColor": "#FFF",
@@ -43,7 +45,10 @@
       "provider": "wx069ba97219f66d99"
     }
   },
-  "navigateToMiniProgramAppIdList":["wx05226138cb8bc129","wx12f18098bae0fd70"],
+  "navigateToMiniProgramAppIdList": [
+    "wx05226138cb8bc129",
+    "wx12f18098bae0fd70"
+  ],
   "sitemapLocation": "sitemap.json",
-  "style":"v2"
+  "style": "v2"
 }

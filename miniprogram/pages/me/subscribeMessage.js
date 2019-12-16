@@ -16,28 +16,44 @@ Page({
     this.setData(e)
 
   },
-  subscribeMessage() {
-    let date = {
+
+  sendSubscribeMessage() {
+    wx.cloud.callFunction({
+      name: "sendSubscribeMessage"
+    }).then(res => {
+      console.log(res)
+    })
+  },
+
+
+ subscribeMessage() {
+
+    let data = {
       "date": new Date(this.data.date),
       "name": this.data.name,
       "relation": this.data.relation,
       "sended": 0
     }
+
     wx.requestSubscribeMessage({
       tmplIds: ['CBHxOn84phOip4DWha3paQGLIVaL_wUk0bXmV-zBJgU'],
       success(res) {
         console.log(res)
         if (res['CBHxOn84phOip4DWha3paQGLIVaL_wUk0bXmV-zBJgU'] == 'accept') {
-          dbutil.subscribeMessage(date)
+          db.collection("subscribeMessage").add({
+            data
+          })
         }
       },
-      complete() {
-        wx.reLaunch({
-          url: '/pages/index/index',
-        })
-      }
+      // complete() {
+      //   wx.reLaunch({
+      //     url: '/pages/index/index',
+      //   })
+      // }
     })
   },
+
+
   back() {
     wx.reLaunch({
       url: '/pages/index/index',

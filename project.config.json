@@ -84,6 +84,19 @@
 					"pathName": "pages/scroll/scroll",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "统计信息",
+					"pathName": "pages/cloudbase/count",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "生成小程序码",
+					"pathName": "pages/minappqr/index",
+					"scene": null
 				}
 			]
 		}
