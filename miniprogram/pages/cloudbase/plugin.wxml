@@ -1,0 +1,15 @@
+<button type="primary" size="mini" bindtap="getPluginList"> 获取插件列表</button>
+<button type="primary" class="margin-top" size="mini" bindtap="unbindPlugin"> 删除插件</button>
+
+<form bindsubmit="applyPlugin">
+  <input class="input margin-top" name="appid" placeholder="请输入待申请插件的 appid"></input>
+  <input class="input margin-top" name="reason" placeholder="请输入理由"></input>
+  <button type="primary" class="margin-top" size="mini" form-type="submit"> 申请插件</button>
+</form>
+
+<view wx:if="{{pluginList}}" wx:for="{{pluginList}}" wx:key="index">
+  <view>{{item.nickname}}</view>
+  <view>{{pluginApplyState[item.status-1]}}</view>
+  <image class="plugin-image" src="{{item.headimgurl}}"></image>
+  <button type="primary" class="margin-top" size="mini" bindtap="unbindPlugin" data-id="{{item.appid}}"> 删除插件</button>
+</view>

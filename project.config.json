@@ -96,6 +96,27 @@
 					"id": -1,
 					"name": "生成小程序码",
 					"pathName": "pages/minappqr/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": " 插件",
+					"pathName": "pages/cloudbase/plugin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "tts",
+					"pathName": "pages/cloudbase/tts",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/weui/index",
+					"pathName": "pages/weui/index",
 					"scene": null
 				}
 			]

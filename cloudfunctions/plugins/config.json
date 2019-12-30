@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "openapi": [
+      "pluginManager.applyPlugin",
+      "pluginManager.getPluginList",
+      "pluginManager.unbindPlugin"
+    ]
+  }
+}

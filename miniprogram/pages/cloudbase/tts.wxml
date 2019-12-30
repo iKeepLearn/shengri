@@ -1,0 +1,10 @@
+<view class="container">
+  <form bindsubmit="tts">
+    <view class="form">
+      <input name="content" class="input" placeholder="请输入内容"></input>
+      <button type="primary" size="mini" form-type="submit">合成</button>
+    </view>
+  </form>
+
+  <view class="content margin-top" >检测结果：{{checkedResult}}</view>
+</view>
