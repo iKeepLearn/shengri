@@ -46,10 +46,6 @@
     "WechatSI": {
       "version": "0.3.3",
       "provider": "wx069ba97219f66d99"
-    },
-    "netdiskShare": {
-      "version": "1.2.0",
-      "provider": "wx8c873f830774d652"
     }
   },
   "navigateToMiniProgramAppIdList": [
