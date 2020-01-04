@@ -1,23 +1,47 @@
+.user{
+  width: 128rpx;
+  height: 128rpx;
+  margin:20rpx auto;
+}
+
+page{
+  background-color: #fff;
+}
+
+
 .input{
-  width: 500rpx;
-  min-height: 80rpx;
-  line-height: 80rpx;
-  background-color: #c3c3c3;
-  margin: 20rpx auto;
+  width: 100%;
   padding: 0 20rpx;
-  border-radius:20rpx;
+}
+
+.form{
+  padding: 0 40rpx;
+}
+
+.flex{
+  border-bottom: 1px solid #767676;
+}
+
+.flex text{
+  flex-shrink: 0;
+  height: 100rpx;
+  line-height: 100rpx;
 }
 
 .pick-date {
   background-color: none;
-  width: 480rpx;
+  width: 100%;
   margin: 20rpx auto;
   text-align: center;
+  color:#838383;
+  padding: 0 20rpx;
 }
 
 .submit{
-  width: 480rpx;
-  max-height: 80rpx;
-  line-height: 2;
-  margin: 40rpx auto;  
+  margin: 40rpx auto; 
+}
+
+button[plain]{
+  border-color: #ff4d74; 
+  color: #ff4d74;
 }

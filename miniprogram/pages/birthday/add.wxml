@@ -1,10 +1,13 @@
-
+<image class="user" src="/images/user-unlogin.png"></image>
 <form bindsubmit="addAlert">
-
-<input placeholder="请输入名字" name="name" class="input"></input>
-<input placeholder="请输入与本人的关系" name="relation" class="input"></input>
-<picker mode="date" bindchange="selectDate"  value="{{date}}">
-<view class="pick-date">生日：{{date}}</view>
-</picker>
-<button class="submit" type="primary" form-type="submit">确认添加</button>
+	<view class="form">
+		<view class="flex align-center"><text>姓名</text><input placeholder="请输入名字" name="name" class="input"></input></view>
+		<view class="flex align-center"><text>关系</text><input placeholder="请输入与本人的关系" name="relation" class="input"></input></view>
+		<view class="flex align-center"><text>生日</text>
+			<picker mode="date" bindchange="selectDate" value="{{date}}">
+				<view class="pick-date">{{date||'点击设置'}}</view>
+			</picker>
+		</view>
+		<button class="submit" plain="true" form-type="submit">确认添加</button>
+	</view>
 </form>

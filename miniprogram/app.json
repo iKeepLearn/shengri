@@ -3,16 +3,13 @@
     "pages/index/index",
     "pages/me/me",
     "pages/me/subscribeMessage",
-    "pages/birthday/add",
-    "pages/cloudbase/index",
-    "pages/cloudbase/contentsec",
-    "pages/openai/openai"
+    "pages/birthday/add"
   ],
   "window": {
     "backgroundColor": "#FFF",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FFF",
-    "navigationBarTitleText": "生日提醒",
+    "navigationBarTitleText": "暖心小助理",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -32,17 +29,11 @@
       }
     ]
   },
-  "plugins": {
-    "openai": {
-      "version": "1.1.8",
-      "provider": "wx8c631f7e9f2465e1"
-    },
-    "WechatSI": {
-      "version": "0.3.3",
-      "provider": "wx069ba97219f66d99"
-    }
-  },
   "navigateToMiniProgramAppIdList":["wx05226138cb8bc129","wx12f18098bae0fd70"],
   "sitemapLocation": "sitemap.json",
-  "style":"v2"
+  "style":"v2",
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  }
 }

@@ -1,1 +1,22 @@
-/* pages/me/me.wxss */
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx 20rpx;
+  margin-top:10rpx;
+  background-color: #fff;
+}
+
+.item-image{
+  width: 128rpx;
+  height: 128rpx;
+}
+
+.item-info, .item-extra{
+  display: flex;
+  flex-direction: column;
+}
+
+.item-extra{
+  align-items: flex-end;
+}

@@ -21,13 +21,30 @@ page {
 }
 
 .add-btn{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 60rpx;
-  line-height: 60rpx;
-  width: 280rpx;
   margin:40rpx auto;
   border-radius: 120rpx;
-  background-color: #00B26A;
+  background-color: #ff4d74;
+  color: #fff;
+}
+
+
+.birthday, .today{
+  width: 96%;
+  margin: 20rpx auto;
+  background-color: #fff;
+  border-radius: 8rpx;
+  padding: 20rpx;
+}
+
+.icon-image{
+  width: 64rpx;
+  height: 64rpx;
+}
+
+.title{
+  color:#c7c7c7;
+}
+
+.margin-left-sm{
+  margin-left: 10rpx;
 }

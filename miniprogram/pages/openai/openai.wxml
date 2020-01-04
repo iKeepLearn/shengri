@@ -1,3 +1,0 @@
-<view style="height: 100vh">
-    <openai bind:backHome="goBackHome" bind:queryCallback="getQueryCallback" bind:openWebview="openWebview" bind:openMiniProgram="openMiniProgram" />
-</view>

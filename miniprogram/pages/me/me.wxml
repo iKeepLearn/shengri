@@ -1,2 +1,14 @@
-<!--pages/me/me.wxml-->
-<text>pages/me/me.wxml</text>
+<view class="item" wx:for="{{3}}" wx:key="index">
+	<image class="item-image" src="/images/item.png"></image>
+	<view class="item-info">
+		<view><text class="text-bolder">李浩</text><text class="text-sm text-gray margin-left-sm">好友</text></view>
+		<view class="text-gray">猪/星座/农历生日</view>
+	</view>
+	<view class="item-extra">
+		<view class="text-lg text-red">N天后</view>
+		<view class="text-gray"> N 岁生日</view>
+		<view class="text-gray"> 公历生日</view>
+	</view>
+</view>
+
+<button size="mini" class="bg-red text-white margin-top" bindtap="subscribeMessage">订阅提醒</button>

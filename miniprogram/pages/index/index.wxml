@@ -1,8 +1,20 @@
-<view class="alert">
-<view class="alert-item">
-<text class="name">小明</text>
-<text class="brithday">2019-10-28</text>
-</view>
+<view class=" today">
+	<view class="flex align-center title-bar">
+		<image class="icon-image" src="/images/calender.png"></image>
+		<view class="title margin-left-sm">今日日历</view>
+	</view>
+	<view class="date margin-top">2020/01/04 农历 腊月一月初十 星期六</view>
 </view>
 
-<view class="add-btn" bindtap="addAlert">添加提醒</view>
+<view class=" birthday">
+	<view class="flex align-center title-bar">
+		<image class="icon-image" src="/images/cake.png"></image>
+		<view class="title margin-left-sm">今日寿星</view>
+	</view>
+	<view class="flex align-center happy margin-top" wx:for="{{3}}" wx:key="index">
+		<image class="icon-image" src="/images/item.png"></image>
+		<view>你好友今天生日～ 记得送上祝福</view>
+	</view>
+</view>
+
+<button class="add-btn"  size="mini" bindtap="addAlert">添加提醒</button>
