@@ -29,6 +29,8 @@ Page({
     } = e.detail.value
     let birthday = this.data.date
 
+    birthday = new Date(birthday).getTime()
+
     let checked = this.check(name, relation, birthday)
 
     if (checked) {
@@ -54,6 +56,7 @@ Page({
     }
 
   },
+  
   selectDate(e) {
     this.setData({
       date: e.detail.value

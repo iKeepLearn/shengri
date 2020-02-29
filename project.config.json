@@ -3,15 +3,29 @@
 	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
 		"urlCheck": true,
-		"es6": true,
+		"es6": false,
+		"enhance": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"enhance": true
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": true,
+		"uglifyFileName": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"nodeModules": true
 	},
 	"appid": "wx12f18098bae0fd70",
 	"projectname": "%E7%94%9F%E6%97%A5%E6%8F%90%E9%86%92",
-	"libVersion": "2.8.1",
+	"libVersion": "2.8.3",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -35,21 +49,8 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": -1,
 			"list": [
-				{
-					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "新增提醒",
-					"pathName": "pages/brithday/add",
-					"query": "",
-					"scene": null
-				},
 				{
 					"id": 2,
 					"name": "订阅消息",
@@ -59,22 +60,16 @@
 				},
 				{
 					"id": -1,
-					"name": "云调用获取加密数据",
-					"pathName": "pages/cloudbase/index",
+					"name": "pages/birthday/add",
+					"pathName": "pages/birthday/add",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "内容安全检查",
-					"pathName": "pages/cloudbase/contentsec",
+					"name": "pages/me/me",
+					"pathName": "pages/me/me",
 					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "openai",
-					"pathName": "pages/openai/openai",
 					"scene": null
 				}
 			]

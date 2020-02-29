@@ -7,6 +7,11 @@ Page({
   data: {
 
   },
+  addAlert() {
+    wx.navigateTo({
+      url: '/pages/birthday/add',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

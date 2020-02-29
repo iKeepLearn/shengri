@@ -17,4 +17,3 @@
 	</view>
 </view>
 
-<button class="add-btn"  size="mini" bindtap="addAlert">添加提醒</button>

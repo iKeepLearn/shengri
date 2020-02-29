@@ -20,12 +20,7 @@ page {
   margin:20rpx auto;
 }
 
-.add-btn{
-  margin:40rpx auto;
-  border-radius: 120rpx;
-  background-color: #ff4d74;
-  color: #fff;
-}
+
 
 
 .birthday, .today{

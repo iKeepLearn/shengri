@@ -20,3 +20,9 @@
 .item-extra{
   align-items: flex-end;
 }
+
+.add-btn{
+  margin:40rpx auto;
+  background-color: #ff4d74;
+  color: #fff;
+}
